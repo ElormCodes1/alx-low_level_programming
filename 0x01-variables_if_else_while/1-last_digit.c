@@ -3,6 +3,14 @@
 #include <stdio.h>
 /* more headers goes there */
 
+/**
+ * main - entry point
+ *
+ *
+ * Return: always return 0
+ *
+ */
+
 /* betty style doc for function main goes there */
 int main(void)
 {
@@ -24,7 +32,7 @@ int main(void)
 	}
 	else if (lnum < 6 && lnum != 0)
 	{
-		printf("Last digit of %d is %d and is less than 6 and not 0", n, lnum);
+		printf("Last digit of %d is %d and is less than 6 and not 0\n", n, lnum);
 	}
 
 	return (0);
