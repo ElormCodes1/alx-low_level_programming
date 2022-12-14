@@ -1,12 +1,13 @@
 #include "main.h"
 #include "6-abs.c"
 #include <stdio.h>
+
 /**
- *print natural numbers to 98
+ * jack_bauer - main thing
  *
  */
 
-void print_to_98(int n)
+void print_to_98(int n) //print numbers
 {
 	int i;
 
