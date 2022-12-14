@@ -7,7 +7,7 @@
  *
  */
 
-void print_to_98(int n) //print numbers
+void print_to_98(int n) 
 {
 	int i;
 
