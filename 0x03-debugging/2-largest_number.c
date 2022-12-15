@@ -1,4 +1,4 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
  * largest_number - returns the largest of 3 numbers
@@ -7,16 +7,6 @@
  * @c: third integer
  * Return: largest number
  */
-
- int main(void)
- {
-
- int largest = largest_number(15,20,32);
- printf("%d",largest);
-
-
- return (0);
- }
 
 int largest_number(int a, int b, int c)
 {
