@@ -81,13 +81,40 @@ void print_times_table(int n);
  * checks for upper case
  */
 int _isupper(int c);
+/**
+ * check for digit
+ */
 int _isdigit(int c);
+/**
+ * multiplies
+ */
 int mul(int a, int b);
+/**
+ * print numbers
+ */
 void print_numbers(void);
+/**
+ * print numbers
+ */
 void print_most_numbers(void);
+/**
+ * print numbers
+ */
 void more_numbers(void);
+/**
+ * print line
+ */
 void print_line(int n);
+/**
+ * print diagonal
+ */
 void print_diagonal(int n);
+/**
+ * print spuare
+ */
 void print_square(int size);
+/**
+ * print triangles
+ */
 void print_triangle(int size);
 #endif
