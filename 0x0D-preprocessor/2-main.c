@@ -1,13 +1,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * @s: holds the filename string
+ * main - main file returns file name
+ * Return: returns 0 always
  */
-int main(int argc, char *argv[])
+int main(void)
 {
-	char *s[];
-
-        s = __FILE__;
-	printf("%s\n", s);
+	printf("%s\n", __FILE__);
 	return (0);
 }
