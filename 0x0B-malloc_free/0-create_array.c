@@ -1,6 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 #include <stdlib.h>
+/**
+ * @size: size of array to create
+ * @c: char which initializes the array
+ * create_array - creates array
+ */
 
 char *create_array(unsigned int size, char c)
 {
