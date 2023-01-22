@@ -2,9 +2,10 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
+ * create_array - creates array
  * @size: size of array to create
  * @c: char which initializes the array
- * create_array - creates array
+ * return: char value
  */
 
 char *create_array(unsigned int size, char c)
