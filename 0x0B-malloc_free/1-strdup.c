@@ -1,24 +1,33 @@
-#include "main.h"
+
+
+#include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * create_array - creates array
- * @size: size of array to create
- * @c: char to initialize with?
- * Return: char value
+ * _strdup - duplicates string
+ * @str: string to copy
+ * Return: char to newly duplicated string
  */
-char *create_array(unsigned int size, char c)
+char *_strdup(char *str)
 {
+	int i;
+	int c = 0;
 	char *t;
-	unsigned int i;
 
-	if (size <= 0)
+	if (str == NULL)
 		return (NULL);
-	t = malloc(sizeof(char) * size);
+
+	while (str[c] != '\0')
+		c++;
+
+	t = malloc(sizeof(char) * c + 1);
+
 	if (t == NULL)
 		return (NULL);
-	for (i = 0; i < size; i++)
-		t[i] = c;
+
+	for (i = 0; i < c; i++)
+		t[i] = str[i];
 
 	return (t);
+
 }
