@@ -6,10 +6,20 @@
  */
 void print_dog(struct dog *d)
 {
-	if (d.name || d.age || d.owner == NULL)
-		printf("(nil)");
 	if (d != NULL)
-		printf("%d\n%d\n%d\n",d.name,d.age,d.owner);
+	{
+		if (d->name == NULL)
+			printf("Name: (nil)\n");
+		else
+			printf("Name: %s\n", d->name);
+
+		printf("Age: %d", d->age);
+
+		if (d->owner == NULL)
+			printf("Owner: (nil)\n");
+		else
+			print("Owner: %s\n", d->owner);
+	}
 }
 
 
