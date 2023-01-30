@@ -11,6 +11,7 @@ struct dog{
 	float age;
 	char *owner;
 }
+typedef struct dog dog_t;
 /**
  * init_dog - initializes a variable
  * struct dog - structure dog
