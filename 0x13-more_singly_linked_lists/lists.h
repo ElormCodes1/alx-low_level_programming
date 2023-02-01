@@ -1,29 +1,31 @@
 #ifndef LISTS_H
 #define LISTS_H
-#include <stdio.h>
-#include <stdlib.h>
 #include <stddef.h>
+#include <stdlib.h>
+#include <stdio.h>
 int _putchar(char c);
 /**
- * struct listint_s - singly linked list
- * @n: integer
+ * struct list_s - singly linked list
+ * @str: string - (malloc'ed string)
+ * @len: length of the string
  * @next: points to the next node
  *
- * Description: Singly linked list node structure for alx project
- *
+ * Description: singly linked list node structure
+ * for alx project
  */
-typedef struct listint_s
+typedef struct list_s
 {
-	int n;
-	struct listint_s *next;
-} listint_t;
+	char *str;
+	unsigned int len;
+	struct list_s *next;
+} list_t;
 /**
  * struct listint_s - singly linked list
  * @n: integer
  * @next: points to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for alx project
  */
 typedef struct listint_s
 {
