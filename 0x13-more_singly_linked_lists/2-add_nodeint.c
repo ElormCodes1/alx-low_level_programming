@@ -3,6 +3,7 @@
  * add_nodeint - adds a node to begining of linked list
  * @head: pointer to th first node of linked list
  * @n: value of the head
+ * Return: the linked list
  */
 listint_t *add_nodeint(listint_t **head, const int n)
 {
