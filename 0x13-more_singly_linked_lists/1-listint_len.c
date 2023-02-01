@@ -6,7 +6,7 @@
  */
 size_t listint_len(const listint_t *h)
 {
-	int counter = 0;
+	size_t counter = 0;
 
 	while (h->next != NULL)
 	{
