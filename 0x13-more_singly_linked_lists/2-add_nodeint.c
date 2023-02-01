@@ -4,7 +4,7 @@
  * @head: pointer to th first node of linked list
  * @n: value of the head
  */
-listint_t *add_node(listint_t **head, const int n)
+listint_t *add_nodeint(listint_t **head, const int n)
 {
 	listint_t *new;
 
